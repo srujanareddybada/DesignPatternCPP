@@ -33,6 +33,7 @@
     <ClCompile Include="TextCell.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="allheader.h" />
     <ClInclude Include="DocExporter.h" />
     <ClInclude Include="HtmlExporter.h" />
     <ClInclude Include="Cell.h" />

@@ -1,7 +1,9 @@
 #include "Notebook.h"
+#include "Page.h"
 
-Notebook::Notebook():
-	ptrPage(nullptr)
+Notebook::Notebook(string bookName):
+	ptrPage(nullptr),
+	m_bookName(bookName)
 {
 }
 
@@ -17,5 +19,10 @@ Page* Notebook::CreatePage(string pageName)
 
 void Notebook::exporte(NodeExporter* ptrExport)
 {
-	ptrExport->exportNotebook();
+	ptrExport->exportNotebook(this);
+}
+
+string Notebook::GetBookName()
+{
+	return m_bookName;
 }

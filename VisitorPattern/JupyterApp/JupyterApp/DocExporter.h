@@ -1,7 +1,7 @@
 #pragma once
 #include "NodeExporter.h"
-class DocExporter :
-    public NodeExporter
+class DocExporter 
+    //:public NodeExporter
 {
 
 public:

@@ -1,9 +1,10 @@
 #include "Page.h"
 
 
-Page::Page(string pageName)
+Page::Page(string pageName):
+	m_pageName(pageName)
 {
-	cout << pageName << endl;
+	//cout << m_pageName << endl;
 }
 
 Page::~Page()
@@ -28,5 +29,10 @@ void Page::addCell(TextCell* ptrTCell)
 void Page::exporte(NodeExporter* ptrExport)
 {
 	ptrExport->exportPage(this);
+}
+
+string Page::GetPageName()
+{
+	return m_pageName;
 }
 

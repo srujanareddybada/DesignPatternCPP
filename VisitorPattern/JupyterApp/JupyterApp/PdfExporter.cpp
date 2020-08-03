@@ -1,13 +1,29 @@
 #include "PdfExporter.h"
 
-void PdfExporter::exportNotebook()
+PdfExporter::PdfExporter()
 {
 }
 
-void PdfExporter::exportPage()
+PdfExporter::~PdfExporter()
 {
 }
 
-void PdfExporter::exportCell()
+void PdfExporter::exportNotebook(Notebook* ptrNotebook)
+{
+}
+
+void PdfExporter::exportPage(Page* ptrPage)
+{
+}
+
+void PdfExporter::exportImageCell(ImageCell* ptrImageCell)
+{
+}
+
+void PdfExporter::exportSrcCodeCell(SrcCodeCell* ptrSrcCodeCell)
+{
+}
+
+void PdfExporter::exportTextCell(TextCell* ptrTextcell)
 {
 }

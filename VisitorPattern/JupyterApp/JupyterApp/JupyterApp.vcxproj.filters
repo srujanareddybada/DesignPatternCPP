@@ -33,5 +33,6 @@
     <ClInclude Include="SrcCodeCell.h" />
     <ClInclude Include="TextCell.h" />
     <ClInclude Include="Cell.h" />
+    <ClInclude Include="allheader.h" />
   </ItemGroup>
 </Project>

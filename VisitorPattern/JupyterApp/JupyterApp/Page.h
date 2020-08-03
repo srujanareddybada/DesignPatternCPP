@@ -1,10 +1,10 @@
 #pragma once
 #include "INode.h"
-#include "Cell.h"
 #include "ImageCell.h"
 #include "SrcCodeCell.h"
 #include "TextCell.h"
-#include "NodeExporter.h"
+using namespace std;
+class NodeExporter;
 
 class Page :
     public INode
@@ -18,5 +18,10 @@ public:
     void addCell(TextCell* ptrTCell);
 
     void exporte(NodeExporter* ptrExport);
+
+    string GetPageName();
+
+private:
+    std::string m_pageName;
 };
 

@@ -11,5 +11,5 @@ SrcCodeCell::~SrcCodeCell()
 
 void SrcCodeCell::exporte(NodeExporter* ptrExport)
 {
-	ptrExport->exportNotebook();
+	ptrExport->exportSrcCodeCell(this);
 }

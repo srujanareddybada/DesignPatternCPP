@@ -1,8 +1,8 @@
 #pragma once
 #include <string>
 #include <iostream>
-#include "NodeExporter.h"
 using namespace std;
+class NodeExporter;
 
 class INode
 {
