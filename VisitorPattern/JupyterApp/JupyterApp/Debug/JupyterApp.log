@@ -1,0 +1,44 @@
+﻿  JupyterApp.cpp
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(12): error C2259: 'ImageCell': cannot instantiate abstract class
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\ImageCell.h(3): message : see declaration of 'ImageCell'
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(12): message : due to following members:
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(12): message : 'void INode::exporte(NodeExporter *)': is abstract
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\INode.h(10): message : see declaration of 'INode::exporte'
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(12,35): error C2259: 'ImageCell': cannot instantiate abstract class
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\ImageCell.h(3): message : see declaration of 'ImageCell'
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(12,35): message : due to following members:
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(12,35): message : 'void INode::exporte(NodeExporter *)': is abstract
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\INode.h(10): message : see declaration of 'INode::exporte'
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(14): error C2259: 'ImageCell': cannot instantiate abstract class
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\ImageCell.h(3): message : see declaration of 'ImageCell'
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(14): message : due to following members:
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(14): message : 'void INode::exporte(NodeExporter *)': is abstract
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\INode.h(10): message : see declaration of 'INode::exporte'
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(15): error C2259: 'SrcCodeCell': cannot instantiate abstract class
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\SrcCodeCell.h(3): message : see declaration of 'SrcCodeCell'
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(15): message : due to following members:
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(15): message : 'void INode::exporte(NodeExporter *)': is abstract
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\INode.h(10): message : see declaration of 'INode::exporte'
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(15,59): error C2259: 'SrcCodeCell': cannot instantiate abstract class
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\SrcCodeCell.h(3): message : see declaration of 'SrcCodeCell'
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(15,59): message : due to following members:
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(15,59): message : 'void INode::exporte(NodeExporter *)': is abstract
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\INode.h(10): message : see declaration of 'INode::exporte'
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(16): error C2259: 'TextCell': cannot instantiate abstract class
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\TextCell.h(3): message : see declaration of 'TextCell'
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(16): message : due to following members:
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(16): message : 'void INode::exporte(NodeExporter *)': is abstract
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\INode.h(10): message : see declaration of 'INode::exporte'
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(16,56): error C2259: 'TextCell': cannot instantiate abstract class
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\TextCell.h(3): message : see declaration of 'TextCell'
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(16,56): message : due to following members:
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(16,56): message : 'void INode::exporte(NodeExporter *)': is abstract
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\INode.h(10): message : see declaration of 'INode::exporte'
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(22): error C2259: 'ImageCell': cannot instantiate abstract class
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\ImageCell.h(3): message : see declaration of 'ImageCell'
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(22): message : due to following members:
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\JupyterApp.cpp(22): message : 'void INode::exporte(NodeExporter *)': is abstract
+D:\MyWork\C++\DesignPatterns\DesignPatternsProjects\JupyterApp\JupyterApp\INode.h(10): message : see declaration of 'INode::exporte'
+  Notebook.cpp
+  TextCell.cpp
+  Generating Code...
