@@ -1,1 +1,12 @@
-.VS
+.vs
+.obj
+.tlog
+.idb
+.pdb
+.suo
+.db
+.log
+.ilk
+.exe
+.obj
+Debug/
